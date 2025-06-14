@@ -14,4 +14,4 @@ if [ -f ".venv311/bin/activate" ]; then
 fi
 
 # Установка переменной окружения и запуск
-DATASET_ROOT="$TRAIN_PATH" python src/start.py
+DATASET_ROOT="$TRAIN_PATH" python start.py
